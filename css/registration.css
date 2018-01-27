@@ -8,4 +8,122 @@
 
 body {
   background: #2b5c46;
+  color: white;
+}
+
+#wrapperdiv {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+#BodyTitle {
+  text-align: center;
+}
+
+#BodyTitle img {
+  max-width: 40%;
+}
+
+img {
+  max-width: 100%;
+}
+
+strong {
+  border-bottom: 1px solid #fff;
+}
+
+input[type=text] {
+  display: block;
+  width: 100%;
+  padding: .375rem .75rem;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: .25rem;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+select {
+  display: block;
+  width: 100%;
+  height: calc(2.25rem + 2px);
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: .25rem;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.radioGroup {
+  border-left: 1px solid #fff;
+  padding-left: 1rem;
+  list-style-type: none;
+}
+
+input[type=radio] {
+  margin-right: 0.5rem;
+}
+
+.sectionHeaderWrapper {
+  border-bottom: 1px solid #fff;
+  margin-bottom: 2rem;
+  font-size: 1.5rem;
+}
+
+.sectionWrapper {
+  margin-bottom: 2rem;
+}
+
+.fieldwrapper  {
+  margin-bottom: 1rem;
+}
+
+.itemdescriptioncell {
+  display: inline-block;
+  width: 40%;
+}
+
+.inputcell {
+  display: inline-block;
+  width: 59%;
+  vertical-align: top;
+}
+
+textarea {
+  overflow: auto;
+  resize: vertical;
+  display: block;
+  width: 100%;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: .25rem;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+#info_TshirtInfo img {
+  border: 1px solid #000;
+}
+
+#info_TshirtInfo p {
+  display: inline-block;
+  max-width: 49%;
+}
+
+#info_TshirtInfo p img {
+  border: 1px solid black;
+}
+
+#info_TshirtInfo p:nth-child(2)  {
+  max-width: 100%;
 }
